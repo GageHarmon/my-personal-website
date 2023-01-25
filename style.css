@@ -1,3 +1,12 @@
 body {
     background: rgb(212, 212, 212);
   }
+
+div {
+text-align: right;
+}
+
+img {
+  height: 50%;
+  width: 25%;
+}
