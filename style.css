@@ -10,3 +10,8 @@ img {
   height: 50%;
   width: 25%;
 }
+
+.container-1 {
+  background: conic-gradient(black 180deg 360deg, yellow 0deg 180deg); 
+
+}
