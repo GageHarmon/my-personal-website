@@ -9,10 +9,51 @@ body {
   background: #00274C;
 }
 
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
 
 .navigation {
   position: fixed;
-  inset: 20px 0 20px 20px;
+  inset: 220px 0 20px 20px;
   width: 75px;
   background: #FFFF00;
   transition: 0.5s;
@@ -69,7 +110,7 @@ body {
   box-shadow: 0 0 0 #333;
 }
 
-.navigation ul {
+/* .navigation ul {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -91,18 +132,18 @@ body {
 
 .navigatio.open ul li.active {
   transform: translateX(10px);
-}
+} */
 
-.navigtation ul li a {
+/* .navigtation ul li a {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   text-align: center;
   text-decoration: none;
-}
+} */
 
-.navigation ul li a .icon {
+/* .navigation ul li a .icon {
   position: relative;
   display: block;
   min-width: 55px;
@@ -112,8 +153,8 @@ body {
   border-radius: 10px;
   font-size: 1.75em;
   color: #000;
-}
-
+} */
+/* 
 navigation ul li.active a .icon {
   color: #fff;
   background: var(--clr);
@@ -146,13 +187,13 @@ navigation ul li.active a .icon {
   opacity: 0;
   visibility: hidden;
   transition: 0.5s;
-}
+} */
 
-.navigation.open ul li a .text {
+/* .navigation.open ul li a .text {
   opacity: 1;
   visibility: visible;
 }
 
 navigation ul li.active a .text {
   color: var(--clr);
-}
+} */
